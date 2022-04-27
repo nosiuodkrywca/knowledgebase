@@ -84,7 +84,7 @@ pihole -w dl.delivery.mp.microsoft.com geo-prod.do.dsp.mp.microsoft.com displayc
 
 ## Windows 10 Update
 ```
-pihole -w sls.update.microsoft.com.akadns.net fe3.delivery.dsp.mp.microsoft.com.nsatc.net tlu.dl.delivery.mp.microsoft.com
+pihole -w sls.update.microsoft.com.akadns.net fe3.delivery.dsp.mp.microsoft.com.nsatc.net tlu.dl.delivery.mp.microsoft.com settings-win.data.microsoft.com v10.vortex-win.data.microsoft.com
 ```
 
 ## Microsoft Edge Browser  Update
