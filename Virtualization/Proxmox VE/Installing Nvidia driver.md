@@ -1,6 +1,6 @@
 # Proxmox VE NVIDIA driver installation
 
-## Download driver package
+## Download the driver package
 `mkdir /opt/nvidia`
 
 `cd /opt/nvidia`
