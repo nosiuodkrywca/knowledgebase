@@ -38,10 +38,19 @@ sudo apt-get install openvpn
 >```
 >List all available locations by using the `ls` command.
 
-5. Run OpenVPN service in the background:
+5. Save password and run OpenVPN service in the background:
 
 ```
-sudo openvpn --config ~/connection.ovpn --daemon
+nano pass.txt
+```
+
+```
+username
+password
+```
+
+```
+sudo openvpn --config ~/connection.ovpn --auth-user-pass pass.txt --daemon
 ```
 
 >You might need to input your credentials depending on your provider.
