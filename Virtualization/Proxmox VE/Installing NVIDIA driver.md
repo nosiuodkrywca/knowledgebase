@@ -1,5 +1,8 @@
 # Proxmox VE NVIDIA driver installation
 
+## Prerequisites
+`apt install -y pve-headers pve-kernel-libc-dev linux-headers\`uname -r\``
+
 ## Download the driver package
 `mkdir /opt/nvidia`
 
