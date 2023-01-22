@@ -87,6 +87,8 @@
 
     > `vtcon0` might be `vtcon1` depending on your environment.
 
+    `chmod +x /root/fix_gpu_pass.sh`
+
 2. Edit crontab
 
     `crontab -e`
