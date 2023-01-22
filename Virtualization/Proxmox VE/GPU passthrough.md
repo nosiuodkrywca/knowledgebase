@@ -51,7 +51,7 @@
     ```
 
     ```
-    cat <EOF >> /etc/modprobe.d/pve-blacklist.conf       
+    cat <<EOF >> /etc/modprobe.d/pve-blacklist.conf       
     blacklist nvidiafb
     blacklist nvidia
     blacklist nouveau
