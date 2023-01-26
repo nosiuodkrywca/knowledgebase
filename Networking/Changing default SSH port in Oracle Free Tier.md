@@ -1,4 +1,4 @@
-# Changing SSH port on Oracle Always Free Compute instance\
+# Changing SSH port on Oracle Always Free Compute instance
 
 1. Open the port in Oracle Virtual Cloud Network via GUI
 
