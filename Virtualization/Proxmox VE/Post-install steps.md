@@ -19,3 +19,13 @@ Comment out `# deb https://enterprise.proxmox.com/debian stretch pve-enterprise`
 
 ## Install sudo, git, make
 `apt-get install sudo git gcc make pve-headers-$(uname -r)`
+
+## Resize root partition
+> Do so only if you don't plan on storing any VM/container data on the boot drive
+
+Delete any storage pool (default local-lvm) from the GUI, then run:
+```bash
+lvremove /dev/pve/data
+lvresize -l +100%FREE /dev/pve/root
+resize2fs /dev/mapper/pve-root
+```
